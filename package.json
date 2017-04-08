@@ -1,0 +1,30 @@
+{
+  "name": "qmxtr-keyinput",
+  "version": "1.0.0",
+  "description": "A keyinput plugin for QMXTR.",
+  "main": "dist/qmxtr-keyinput.bundle.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QMXTR/qmxtr-keyinput.git"
+  },
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [
+    "music",
+    "player",
+    "qmxtr"
+  ],
+  "author": "Khinenw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/QMXTR/qmxtr-keyinput/issues"
+  },
+  "homepage": "https://github.com/QMXTR/qmxtr-keyinput#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-env": "^1.3.3",
+    "webpack": "^2.3.2"
+  }
+}
